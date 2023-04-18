@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item android:id="@+id/ReAttempt"
+            android:icon="@drawable/baseline_restart_alt_24"
+            android:title="@string/Re_attempt_Quiz"
+            app:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/Rate"
+            android:title="@string/Rate_the_app"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/Show_Score"
+            android:title="@string/show_score"
+            app:showAsAction="never"/>
+
+</menu>
