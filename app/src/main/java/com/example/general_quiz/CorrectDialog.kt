@@ -9,7 +9,7 @@ class CorrectDialog: DialogFragment(R.layout.dialog_correct) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         val continueBtn: Button =view.findViewById(R.id.Continue)
-       // val activity = requireActivity() as NewActivity
+
         continueBtn.setOnClickListener{
             (activity as NewActivity).numCorrectAnswers=(activity as NewActivity).numCorrectAnswers+1
             dismiss()
